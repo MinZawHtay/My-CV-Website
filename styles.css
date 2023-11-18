@@ -542,24 +542,8 @@ span{
 .contact form .textarea-field textarea {
     resize: none;
 }
-
-.contact form button {
-    padding: 12px 32px;
-    background: #0ef;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    box-shadow: 0 0 10px #0ef;
-    font-size: 16px;
-    color: var(--text-color);
-    letter-spacing: 1px;
-    font-weight: 600;
+.contact form .btn-box.btns .btn{
     cursor: pointer;
-    margin-top: 20px;
-    transition: .5s;
-}
-.contact form button:hover {
-    box-shadow: none;
 }
 .footer {
     display: flex;
